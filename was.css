@@ -6,26 +6,33 @@ body {
     padding: 20px;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 h1 {
     text-align: center;
     margin-bottom: 20px;
+    color: #4CAF50;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 th, td {
-    padding: 12px;
+    padding: 15px;
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
 
-th {
+thead th {
     background-color: #4CAF50;
     color: white;
     font-weight: bold;
@@ -35,23 +42,21 @@ tr:hover {
     background-color: #f1f1f1;
 }
 
-th:first-child, td:first-child {
-    width: 30%;
-}
-
 .level1 {
-    background-color: #4CAF50;
-    color: white;
-    font-weight: bold;
-}
-
-.level2 {
     background-color: #a5d6a7;
     color: white;
     font-weight: bold;
 }
 
-.level3 {
-    background-color: #c8e6c9;
-    color: black;
+.level1 td {
+    background-color: #e8f5e9;
+}
+
+tbody td {
+    background-color: #fff;
+    vertical-align: top;
+}
+
+td strong {
+    color: #4CAF50;
 }
