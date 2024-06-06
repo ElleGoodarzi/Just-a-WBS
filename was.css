@@ -43,8 +43,8 @@ tr:hover {
 }
 
 .level1 {
-    background-color: #a5d6a7;
-    color: white;
+    background-color: #e8f5e9;
+    color: #333;
     font-weight: bold;
 }
 
@@ -60,3 +60,4 @@ tbody td {
 td strong {
     color: #4CAF50;
 }
+
